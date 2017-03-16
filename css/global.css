@@ -168,6 +168,10 @@ h2{
 	font-size: 30px;
 	font-family: 'Gotham-Medium';
 }
+h3{
+	font-size: 20px;
+	font-family: 'Gotham-Light';
+}
 
 a, :hover {
 	transition: all 0.3s linear 0s;	
@@ -350,6 +354,59 @@ ol, ul{
 		color: #fff;
 		text-decoration: underline;
 	}
+
+	/* Client review */
+	.client-reviews h3{
+		margin: 0 0 20px;
+	}
+	.client-reviews .block{
+		overflow: hidden;
+	}
+		.block .lawyer-info{
+			float: left;
+			width: 90px;
+			text-align: center;
+			margin-right: 10px;
+		}
+			.lawyer-info img{
+				margin-bottom: 8px;
+			}
+			.lawyer-info span{
+				font-family: 'Gotham-Medium';
+				line-height: 14px;
+				display: block;
+			}
+			.lawyer-info .name{
+				color: #ffffff;
+				font-size: 13px;				
+			}
+			.lawyer-info .address{
+				color: #dadada;
+				font-size: 11px;
+			}
+		.block .lawyer-desc{
+			float:left;
+			width: calc(100% - 100px);
+		}
+			.lawyer-desc strong{
+				color: #fcfcfc;
+				font-size: 12px;
+			}
+			.lawyer-desc p{
+				color: #e4e4e4;
+				font-size: 11px;
+				font-family: 'Gotham-BookIta';
+				line-height: 18px;
+				margin-top: 10px;
+			}
+			.lawyer-desc .review-btn{
+				background: url(../images/icon-book.png) no-repeat right;
+				float: right;
+				color: #fbd243;
+				font-size: 10px;
+				font-family: 'Gotham-Book';
+				padding-right: 18px;
+			}
 
 /*****************************
  * Footer Styles

@@ -78,15 +78,39 @@
 						</div>
 						<div class="col-md-5 col-md-offset-1 client-reviews">
 							<h3>Client review LegalMatch lawyers</h3>
-							<div class="row">
-								<div class="col-xs-3 lawyer-info">
+							<div class="block">
+								<div class="lawyer-info">
 									<img src="./images/Mitchell.png" alt="Mitchell M." />
 									<span class="name">Mitchell M.</span>
 									<span class="address">Cherry Hill, NJ</span>
 								</div>
-								<div class="col-xs-9 lawyer-desc">
+								<div class="lawyer-desc">
 									<strong>Family Law</strong>
-									<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...</p>
+									<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et adipiscing elit sed do ...</p>
+									<a href="#" class="review-btn">Read Review</a>
+								</div>
+							</div>
+							<div class="block">
+								<div class="lawyer-info">
+									<img src="./images/Joel.png" alt="Joel C.." />
+									<span class="name">Joel C..</span>
+									<span class="address">Little Rock, AK</span>
+								</div>
+								<div class="lawyer-desc">
+									<strong>Job & Employment Law</strong>
+									<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et adipiscing elit sed do ...</p>
+									<a href="#" class="review-btn">Read Review</a>
+								</div>
+							</div>
+							<div class="block">
+								<div class="lawyer-info">
+									<img src="./images/Brigida.png" alt="Brigida R." />
+									<span class="name">Brigida R.</span>
+									<span class="address">Dallas, TX</span>
+								</div>
+								<div class="lawyer-desc">
+									<strong>Family Law</strong>
+									<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et adipiscing elit sed do ...</p>
 									<a href="#" class="review-btn">Read Review</a>
 								</div>
 							</div>
