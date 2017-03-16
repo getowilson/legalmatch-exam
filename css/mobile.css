@@ -1,6 +1,28 @@
 /*****************************
  * Media Queries Styles
  ****************************/
-@media (min-width: 1200px){
-	
+@media (min-width: 768px){
+	.other-categories .modal-dialog {
+	  width: 720px;
+	}
+}
+
+@media (max-width: 991px){
+	.client-reviews{
+		margin: 40px 0; 
+	}
+	.footer-nav{
+		margin-bottom: 30px;
+	}
+	.footer-logo{
+		margin: 0 auto;
+	}
+	.sponsor{
+		float: none !important;
+    text-align: center;
+    margin-top: 25px;
+	}
+	.sponsor img{
+		display: inline-block;
+	}
 }

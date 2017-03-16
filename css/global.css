@@ -288,7 +288,8 @@ ol, ul{
     -o-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 25px rgba(255, 255, 255, 0.6);
     background-color: #fff;
 	}
-	.form-field .input-group-addon{
+	.form-field .input-group-addon,
+	.modal .input-group-addon{
 		border: none;
     background-color: #d68d00;
     color: #fff;
@@ -296,6 +297,9 @@ ol, ul{
     padding: 5px 12px;
     min-width: 34px;
     text-align: center;
+	}
+	.modal .input-group-addon{
+		padding: 9px 12px;
 	}
 	.form-field .form-control,
 	.form-field .btn{
@@ -361,6 +365,12 @@ ol, ul{
 	}
 	.client-reviews .block{
 		overflow: hidden;
+		border-top: 1px solid #4976a4;
+		padding: 20px 0 15px;
+	}
+	.client-reviews .block:first-of-type{
+		border: none;
+		padding-top: 0;
 	}
 		.block .lawyer-info{
 			float: left;
@@ -388,9 +398,19 @@ ol, ul{
 			float:left;
 			width: calc(100% - 100px);
 		}
+			.lawyer-desc .ratings .fa,
+			.review .ratings .fa{
+				color: #666666;
+			}
+			.lawyer-desc .ratings .rated,
+			.review .ratings .rated{
+				color: #d89108;
+			}
 			.lawyer-desc strong{
 				color: #fcfcfc;
 				font-size: 12px;
+				display: inline-block;
+				margin-right: 20px;
 			}
 			.lawyer-desc p{
 				color: #e4e4e4;
@@ -413,6 +433,199 @@ ol, ul{
  ****************************/
 .footer{
 	background-color: #fff;
+	padding: 35px 0;
 }
+.footer p{
+	color: #919aa2;
+	font-size: 12px;
+	font-family: 'Gotham-Book';
+	line-height: 20px;
+}
+	.footer-nav{
+		margin: 20px 0 50px;
+	}
+	.footer-nav ul li{
+		display: inline-block;
+		padding: 0 20px;
+	}
+	.footer-nav ul li a{
+		color: #919aa2;
+		font-size: 12px;
+	}
+	.footer-logo{
+		display: block;
+		max-width: 200px;
+	}
+	.sponsor img{
+		display: block;
+		margin-bottom: 17px;
+	}
+
+	/* Modal */
+	.modal-header{
+		border: none;
+		padding: 10px 10px 0 10px;
+	}
+	.modal-body{
+		padding: 0 30px 0 30px;
+	}
+	.modal-footer{
+		border: none;
+    text-align: left;
+    padding: 25px 30px;
+	}
+	.modal-footer .footer-rate{
+		color: #000;
+		font-size: 14px;
+		font-family: 'Gotham-Medium';
+		margin-bottom: 10px;
+	}
+	.modal-footer .close{
+		color: blue;
+    opacity: 1;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Gotham-Light';
+    margin: 10px 0 5px;
+	}
+	.review .modal-body{
+		padding: 0 30px;
+	}
+	.modal-header .close span{
+		font-size: 40px;
+	}
+	.modal .input-group{
+		margin-bottom: 15px;
+	}
+	.modal .input-group label{
+		color: #4e555c;
+		font-size: 18px;
+		font-weight: normal;
+		font-family: 'Gotham-Book';
+		margin: 3px 0 3px 20px;
+	}
+	.modal .checkbox{
+		margin-bottom: 25px;
+	}
+	.modal button.btn{
+		color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #02377b;
+    min-width: 255px;
+    height: 52px;
+    text-align: center;
+    margin: 25px auto 0;
+    display: block;
+    font-family: 'Gotham-Medium';
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+	}
+
+	.review .modal-header{
+		padding: 0;
+    margin: 20px 30px 0;
+    border-bottom: 1px solid #666666;
+	}
+	.review .modal-header h3{
+		color: #000000;
+    font-size: 24px;
+    font-family: 'Gotham-Book';
+    float: left;
+    margin: 0 0 12px;
+	}
+	.review .modal-header .close {
+	  margin-top: -10px;
+	}
+	.review .body-top{
+    padding: 15px 0;
+    border-bottom: 1px solid #666666;
+	}
+		.body-top .lawyer-info{
+			overflow: hidden;
+		}
+		.body-top .lawyer-info img{
+			width: 85px;
+			height: 85px;
+			margin-right: 23px;
+		}
+		.body-top .lawyer-info span{
+			line-height: inherit;
+			font-family: 'Gotham-Book';
+		}
+		.body-top .lawyer-info .name{
+			color: #000000;
+			font-size: 30px;
+		}
+		.body-top .lawyer-info .address{
+			color: #979da3;
+			font-size: 16px;
+		}
+		.body-top .lawyer-info .cat{
+			color: #000000;
+			font-size: 16px;
+		}
+		.body-top .overall-ratings{
+			overflow: hidden;
+			margin-top: 10px;
+		}
+		.body-top .overall-ratings h4{
+			color: #000000;
+			font-size: 24px;
+			float: left;
+			margin: 0;
+		}
+		.body-top .overall-ratings h4 span{
+			font-size: 18px;
+		}
+		.body-top .overall-ratings .ratings{
+			display: inline-block;
+			margin: 5px 0 0 20px;
+		}
+		.body-top .overall-ratings .ratings .fa{
+			font-size: 18px;
+		}
+		.body-bottom{
+			padding: 15px 0;
+			border-bottom: 1px solid #666666;
+		}
+		.body-bottom .overall-review li:first-child{
+			font-family: 'Gotham-Medium';
+		}
+		.body-bottom .overall-review li{
+			color: #212121;
+			font-family: 'Gotham-Book';
+		}
+		.body-bottom .overall-review li span.ratings{
+			float: right;
+		}
+		.modal-body .other-cat{
+			padding: 10px 0 30px; 
+		}
+		.modal-body .other-cat li{
+			color: #1864af;
+			font-size: 14px;
+			font-family: 'Gotham-Book';
+			line-height: 28px;
+		}
+		.review.other-categories .modal-header{
+			border: none;
+		}
+		.review.other-categories .modal-header h3 span{
+			color: #000000;
+			font-size: 14px;
+			font-family: 'Gotham-Light';
+			display: block;
+			margin-top: 8px;
+		}
+		.review .modal-dialog{
+		  overflow-y: initial !important
+		}
+		.review .modal-body{
+		  height: 410px;
+		  overflow-y: auto;
+		}
 
 
